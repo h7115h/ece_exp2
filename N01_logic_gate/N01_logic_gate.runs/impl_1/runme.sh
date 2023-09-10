@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/user/Desktop/ex2/N01_logic_gate/N01_logic_gate.runs/impl_1'
+HD_PWD='C:/Users/user/Desktop/github/ece_exp2/N01_logic_gate/N01_logic_gate.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,7 +41,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .init_design.begin.rst
+/bin/touch .write_bitstream.begin.rst
 EAStep vivado -log logic_gate.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source logic_gate.tcl -notrace
 
 

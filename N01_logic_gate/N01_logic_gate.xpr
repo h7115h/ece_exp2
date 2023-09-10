@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="61" Path="C:/Users/user/Desktop/ex2/N01_logic_gate/N01_logic_gate.xpr">
+<Project Version="7" Minor="61" Path="C:/Users/user/Desktop/github/ece_exp2/N01_logic_gate/N01_logic_gate.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="fdf4faaf9d324923ae52538bd62eea57"/>
@@ -118,7 +118,7 @@
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sim_1/imports/ex2/logic_gate_tb.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../logic_gate_tb.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ex2/logic_gate_tb.v"/>
           <Attr Name="ImportTime" Val="1694264209"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

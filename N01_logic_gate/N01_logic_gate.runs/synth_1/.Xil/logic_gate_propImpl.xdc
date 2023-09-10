@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/user/Desktop/ex2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc rfile:../../../N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/user/Desktop/github/ece_exp2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc rfile:../../../N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN Y1 [get_ports a]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]

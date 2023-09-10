@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/user/Desktop/ex2/N01_logic_gate/N01_logic_gate.runs/synth_1/logic_gate.tcl"
+  variable script "C:/Users/user/Desktop/github/ece_exp2/N01_logic_gate/N01_logic_gate.runs/synth_1/logic_gate.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,26 +70,21 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param checkpoint.writeSynthRtdsInDcp 1
-set_param chipscope.maxJobs 2
-set_param synth.incrementalSynthesisCache C:/Users/user/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10296-DESKTOP-LITJ59L/incrSyn
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7s75fgga484-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/user/Desktop/ex2/N01_logic_gate/N01_logic_gate.cache/wt [current_project]
-set_property parent.project_path C:/Users/user/Desktop/ex2/N01_logic_gate/N01_logic_gate.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/user/Desktop/github/ece_exp2/N01_logic_gate/N01_logic_gate.cache/wt [current_project]
+set_property parent.project_path C:/Users/user/Desktop/github/ece_exp2/N01_logic_gate/N01_logic_gate.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo c:/Users/user/Desktop/ex2/N01_logic_gate/N01_logic_gate.cache/ip [current_project]
+set_property ip_output_repo c:/Users/user/Desktop/github/ece_exp2/N01_logic_gate/N01_logic_gate.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib C:/Users/user/Desktop/ex2/N01_logic_gate/N01_logic_gate.srcs/sources_1/new/logic_gate.v
+read_verilog -library xil_defaultlib C:/Users/user/Desktop/github/ece_exp2/N01_logic_gate/N01_logic_gate.srcs/sources_1/new/logic_gate.v
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -99,12 +94,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/user/Desktop/ex2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc
-set_property used_in_implementation false [get_files C:/Users/user/Desktop/ex2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc]
+read_xdc C:/Users/user/Desktop/github/ece_exp2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc
+set_property used_in_implementation false [get_files C:/Users/user/Desktop/github/ece_exp2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental C:/Users/user/Desktop/ex2/N01_logic_gate/N01_logic_gate.srcs/utils_1/imports/synth_1/logic_gate.dcp
+read_checkpoint -auto_incremental -incremental C:/Users/user/Desktop/github/ece_exp2/N01_logic_gate/N01_logic_gate.srcs/utils_1/imports/synth_1/logic_gate.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
