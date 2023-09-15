@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Sep 16 01:43:32 2023
+# Process ID: 6456
+# Current directory: C:/Users/user/Desktop/github/ece_exp2/decoder38/decoder38.runs/impl_1
+# Command line: vivado.exe -log decoder38.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source decoder38.tcl -notrace
+# Log file: C:/Users/user/Desktop/github/ece_exp2/decoder38/decoder38.runs/impl_1/decoder38.vdi
+# Journal file: C:/Users/user/Desktop/github/ece_exp2/decoder38/decoder38.runs/impl_1\vivado.jou
+# Running On: DESKTOP-LITJ59L, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8473 MB
+#-----------------------------------------------------------
+source decoder38.tcl -notrace

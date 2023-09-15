@@ -124,6 +124,7 @@ set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
   set_param chipscope.maxJobs 2
+  set_param xicom.use_bs_reader 1
   open_checkpoint logic_gate_routed.dcp
   set_property webtalk.parent_dir C:/Users/user/Desktop/github/ece_exp2/N01_logic_gate/N01_logic_gate.cache/wt [current_project]
 set_property TOP logic_gate [current_fileset]
