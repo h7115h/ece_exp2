@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7s75fgga484-1" LaunchTime="1694787522">
   <File Type="PA-TCL" Name="priorityencoder42.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="priorityencoder42_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="priorityencoder42_reports.tcl"/>
   <File Type="RDS-RDS" Name="priorityencoder42.vds"/>
   <File Type="RDS-UTIL" Name="priorityencoder42_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="priorityencoder42_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="priorityencoder42.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="priorityencoder42_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="priorityencoder42_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/priorityencoder42.v">
