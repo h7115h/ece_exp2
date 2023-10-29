@@ -1,7 +1,7 @@
-Running: xsim.dir/TFF_oneshot_tb_behav/xsimk.exe -simmode gui -wdb TFF_oneshot_tb_behav.wdb -simrunnum 0 -socket 10344
+Running: xsim.dir/TFF_oneshot_tb_behav/xsimk.exe -simmode gui -wdb TFF_oneshot_tb_behav.wdb -simrunnum 0 -socket 8077
 Design successfully loaded
-Design Loading Memory Usage: 7148 KB (Peak: 7148 KB)
-Design Loading CPU Usage: 61 ms
+Design Loading Memory Usage: 7152 KB (Peak: 7152 KB)
+Design Loading CPU Usage: 15 ms
 Simulation completed
 Simulation Memory Usage: 7656 KB (Peak: 7656 KB)
-Simulation CPU Usage: 77 ms
+Simulation CPU Usage: 31 ms
