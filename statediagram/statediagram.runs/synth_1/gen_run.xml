@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7s75fgga484-1" LaunchTime="1698586016" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/statediagram.dcp">
   <File Type="PA-TCL" Name="statediagram.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="statediagram_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="statediagram_reports.tcl"/>
   <File Type="RDS-RDS" Name="statediagram.vds"/>
   <File Type="RDS-UTIL" Name="statediagram_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="statediagram_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="statediagram.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="statediagram_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="statediagram_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/statediagram.v">

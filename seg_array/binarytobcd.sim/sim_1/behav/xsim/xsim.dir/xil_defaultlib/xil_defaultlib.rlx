@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/user/Desktop/github/ece_exp2/seg_array/binarytobcd.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/user/Desktop/github/ece_exp2/seg_array/binarytobcd.srcs/sim_1/new/seg_array_tb.v,1699052568,verilog,,,,seg_array_tb,,,,,,,,
+C:/Users/user/Desktop/github/ece_exp2/seg_array/binarytobcd.srcs/sources_1/new/binarytobcd.v,1699016147,verilog,,C:/Users/user/Desktop/github/ece_exp2/seg_array/binarytobcd.srcs/sources_1/new/oneshot_universal.v,,binarytobcd,,,,,,,,
+C:/Users/user/Desktop/github/ece_exp2/seg_array/binarytobcd.srcs/sources_1/new/oneshot_universal.v,1699016427,verilog,,C:/Users/user/Desktop/github/ece_exp2/seg_array/binarytobcd.srcs/sources_1/new/seg_array.v,,oneshot_universal,,,,,,,,
+C:/Users/user/Desktop/github/ece_exp2/seg_array/binarytobcd.srcs/sources_1/new/seg_array.v,1699044611,verilog,,C:/Users/user/Desktop/github/ece_exp2/seg_array/binarytobcd.srcs/sim_1/new/seg_array_tb.v,,seg_array,,,,,,,,
